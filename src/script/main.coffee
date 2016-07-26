@@ -40,7 +40,7 @@ App = Vue.extend
   data: ->
     title: 'Zhao Kang\'s'
   ready: ->
-    console.log 'v2'
+    console.log 'v5'
 
     # 默认跳转到project
     if @$route.path is '/'
